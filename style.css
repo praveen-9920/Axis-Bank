@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.box{
+    height: 150px;
+    width: 100%;
+    border: 1px solid;
+    background-color: #861f41;
+}
+.Axis{
+   padding: 45px 100px;
+}
+.box1{
+    margin-top: -30px;
+    height: 30px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33);
+    width: 100%;
+    
+    background-color:white;
+}
+.box2{
+    position: absolute;
+    margin-left: 315px;
+    margin-top: 50px;
+    height: 80px;
+    width: 77%;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+}
+.container ul{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 18pc;
+    margin-top: 20px;
+    
+}
+.container ul a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.container ul li button{
+    margin-left: 50px;
+    background-color: #a4224d;
+    border: 1px solid#a4224d;
+    color: white;
+}
+.box2{
+    display: flex;
+}
+.box2 ul{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    margin-left: -28px;
+    margin-top: 30px;
+}
+.box2 ul a{
+    margin: 20px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.a{
+    margin-left: 40px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.login{
+    margin-top: -50px;
+    width: 100px;
+    height: 45px;
+    background-color: #861f41;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
